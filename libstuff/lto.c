@@ -5,7 +5,7 @@
 #include <libc.h>
 #include <sys/file.h>
 #include <dlfcn.h>
-#include <llvm-c/lto.h>
+#include "../external/llvm-project/llvm/include/llvm-c/lto.h"
 #include "stuff/ofile.h"
 #include "stuff/llvm.h"
 #include "stuff/lto.h"
